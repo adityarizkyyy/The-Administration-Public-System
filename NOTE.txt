@@ -1,0 +1,7 @@
+open with cmd
+
+// install composer for vendor
+composer install
+
+// run database
+php artisan migrate:fresh --seed
