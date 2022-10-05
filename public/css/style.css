@@ -1,0 +1,375 @@
+.layer3_home {
+    background-color: aqua;
+    height: 200px;
+    right: 0%;
+    width: 50%;
+}
+
+.layer2_home {
+    background-color: blue;
+    right: 0%;
+    width: 60%;
+    height: 600px;
+}
+
+.container_home {
+    width: 1000px;
+    height: 100vh;
+    font-weight: bold;
+    font-size: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 50px 1fr 1fr 100px;
+    gap: 10px;
+
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* [home] area konten di kiri */
+.content1_home {
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+    grid-column-start: 1;
+    grid-column-end: 6;
+
+    padding-top: 100px;
+}
+
+/* [home] area konten di kanan */
+.content2_home {
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+    grid-column-start: 7;
+    grid-column-end: 9;
+}
+
+/* [home] gambar */
+.mainchar {
+    width: 400px;
+    padding-top: 50px;
+}
+
+.blue {
+    color: #13334C;
+}
+
+/* .color-link-nav {
+    color: #13334C;
+} */
+
+.navbar-brand {
+    padding-right: 80px;
+}
+
+.nav-item {
+    padding-right: 10px;
+}
+
+.color-link-nav:hover {
+    color: #5E0A0A;
+    font-weight: bold;
+}
+
+
+.main-button {
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #13334C;
+    color: white;
+}
+
+.button-unduh:hover {
+    background-color: greenyellow;
+    border-color: #5E0A0A;
+    font-weight: bold;
+    color: #13334C;
+}
+
+.button-unduh {
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #13334C;
+    color: white;
+}
+
+.tanya-button {
+    background-color: #5E0A0A;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+}
+
+.pad-top-home {
+    padding-top: 50px;
+}
+
+.judul {
+    padding-top: 10px;
+}
+
+.titikdua {
+    padding-left: 50px;
+}
+
+.identitas {
+    padding-left: 10px;
+}
+
+.sec-button {
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #13334C;
+    color: white;
+}
+
+.pro-button {
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #13334C;
+    color: white;
+}
+
+.tabel-profil {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.perm-button {
+    border-radius: 5px;
+    height: 43px;
+    width: 450px;
+    background-color: #13334C;
+    color: white;
+}
+ 
+/*
+.persyaratan {
+    padding-top: 20px;
+    padding-left: 35%;
+    padding-bottom: 30px;
+}
+*/
+
+.main-word-login {
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.body-login {
+    background-color: #C8E6F5;
+}
+
+.kotak-input {
+    height: 35px;
+    width: 400px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.jayaraya {
+    padding-top: 4%;
+    width: 100px;
+}
+
+.font-content {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.input-group {
+    padding-bottom: 10px;
+}
+
+.input-group2 {
+    padding-top: 30px;
+}
+
+.button-login {
+    border-radius: 5px;
+    padding: 15px;
+    padding-left: 105px;
+    padding-right: 105px;
+    background-color: #13334C;
+    color: white;
+    width: 400px;
+}
+
+.button-regist {
+    border-radius: 5px;
+    padding: 15px;
+    padding-left: 105px;
+    padding-right: 105px;
+    background-color: #5E0A0A;
+    color: white;
+    width: 400px;
+}
+
+.pad-subapem {
+    padding-top: 10px;
+}
+
+.login {
+    padding: 15px;
+}
+
+.main-box-form {
+    border-radius: 5px;
+    padding: 12px;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #C8E6F5;
+    color: #13334C
+}
+
+.sec-box-form {
+    padding-right: 20%;
+    padding-left: 20%;
+    background-color: none;
+    color: #13334C;
+}
+
+.notice{
+    color: red;
+    font-weight: bold;
+}
+
+.notice-formulir {
+    letter-spacing: 1px;
+    color: red;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.download-form-button {
+    border-radius: 5px;
+    height: 43px;
+    width: 450px;
+    background-color: #5E0A0A;
+    color: white;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+  .mar-bot {
+      margin-bottom: 9%;
+  }
+
+  .pad-left {
+      padding-left: 10px ;
+  }
+
+
+/* RT */
+
+.button-tolak {
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 105px;
+    padding-right: 105px;
+    background-color: #5E0A0A;
+    color: white;
+    width: 400px;
+}
+
+
+/* RW */
+
+  .jum-perm-button {
+    background-color: #C8E6F5;
+    color: #5E0A0A;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 13pt;
+}
+
+    /*  UNTUK SLIDING CARD */
+    .layer-slide-rw {
+        padding-top: 30px;
+        position: relative;
+        width: 100%;
+        min-height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: none;
+        overflow: hidden;
+    }
+
+    .swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+
+      .card-box {
+          padding-top: 30px;
+          margin-left: 20%;
+          margin-right: 20%;
+          height: 510PX;
+          background-color: #C8E6F5;
+        border-radius: 50px;
+      }
+
+      .content-card-box {
+          text-align: center;
+          font-weight: bold;
+      }
+
+      .total-sp {
+          
+          font-size: 150pt;
+          
+          /* padding-top: 100px; */
+      }
+
+      .detail-sp {
+          margin-left: 55%;
+          color: #5E0A0A;
+          background-color: none;
+          border-color: #5E0A0A;
+          border-radius: 10px;
+          padding-left: 3%;
+          padding-right: 3%;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+
+.untuk-tabel {
+    padding: 50px;
+}
+
+/* .pict-tatacara {
+    width: 200px;
+    position: flex;
+} */
+
+.active {
+    font-weight: bold;
+    color: #5E0A0A;
+}
+
